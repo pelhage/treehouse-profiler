@@ -114,9 +114,6 @@ xhr.onreadystatechange = function () {
     }
 
 };
-var name = prompt('Hello, what is your name?');
-
-alert('Hi' + name + ', you are a FAT NERD');
 
 xhr.open('GET', 'http://teamtreehouse.com/patrickelhage.json');
 xhr.send();
