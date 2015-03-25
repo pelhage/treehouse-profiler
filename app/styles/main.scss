@@ -1,0 +1,166 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: #EDEFF0;
+    font-family:'Nunito', 'Helvetica', 'Verdana', sans-serif;
+    color: #384047;
+}
+
+ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+h2 {
+  color: #657380;
+  font-size: 1.75rem;
+}
+
+/***********************
+** TOP NAVIGATION MENU
+***********************/
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+nav {
+    height: 100px;
+    width: 100%;
+    background: #5FCF80;
+    ul {
+        height: 100px;
+        max-width: 1000px;
+        margin: 0 auto;
+        list-style: none;
+        font-size: 2rem;
+        color: white;
+    }
+    li {
+        float: left;
+        line-height: 100px;
+    }
+}
+
+#profile{
+    display: inline-block;
+    line-height: 96px;
+    h1 {
+      display: inline-block;
+      margin: 1rem 0 1rem 1.4rem;
+      font-size: 2rem;
+      vertical-align: middle;
+    }
+      span {
+        color: #9f9f9f;
+        font-size: 1.5rem;
+        vertical-align: middle;
+
+      }
+
+    img {
+        display: inline-block;
+        height: 80px;
+        width: 80px;
+        border-radius: 40px;
+        border: 8px solid #fefefe;
+        vertical-align: middle;
+    }
+}
+
+.skills {
+    margin-bottom: 2rem;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+    
+    #skills__list {
+        box-sizing: border-box;
+        display: inline-block;
+        width: calc(100% - 270px);
+        padding: 15px 0 0 30px;
+        vertical-align: top;
+        li {
+            float: left;
+            width: 33%;
+            margin-bottom: 20px;
+            padding: 15px 0;
+        }
+    }
+            .skill__name {
+                display: block;
+                margin: 0;
+                color: #9f9f9f;
+                font-weight: 300;
+            }
+            .skill__points {
+                margin: 0;
+            }
+            [class*="skill__color"] {
+                float : left;
+                display : inline-block;
+                height : 15px;
+                width : 15px;
+                border-radius : 15px;
+                margin : 3px 0 0 -25px;
+            }    
+                [class*="Ruby"] { background: #E15258; }
+                [class*="iOS"] { background: #53BBB4; }
+                [class*="CSS"] { background: #3079AB; }
+                [class*="Android"] { background: #5CB860; }
+                [class*="WordPress"] { background: #838CC7; }
+                [class*="Business"] { background: #F9845B; }
+                [class*="PHP"] { background: #7D669E; }
+                [class*="Design"] { background: #E59A13; }
+                [class*="HTML"] { background: #39ADD1; }
+                [class*="Python"] { background: #F092B0; }
+                [class*="DevelopmentTools"] { background: #637A91; }
+                [class*="Java"] { background: #2C9676; }
+                [class*="JavaScript"] { background: #C25975; }
+                [class*="DigitalLiteracy"] { background: #D4D9DD; }
+
+    #skills__chart {
+        display: inline-block;
+        height: 250px;
+        width: 250px;
+    }
+}
+
+
+#achievements {
+
+    .badge {
+        float: left;
+        width: calc(33% - 10px);
+        height: 250px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        background: #fff;
+        text-align: center;
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+        
+        &:nth-child(3n+1) {
+            margin-left: 0;
+        }
+    }
+    .badge--name {
+        font-weight: bold;
+    }
+    .badge--course {
+        color: #888;
+    }
+    .badges img {
+        width: 100px;
+    }
+}
+
+
+
+
+
