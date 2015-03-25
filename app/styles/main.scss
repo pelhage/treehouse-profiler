@@ -18,6 +18,17 @@ h2 {
   font-size: 1.75rem;
 }
 
+a { 
+    color: #384047; 
+    text-decoration: none;
+    transition: 0.3s;
+    &:hover { 
+        color: #657380;
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+}
+
 /***********************
 ** TOP NAVIGATION MENU
 ***********************/
@@ -71,6 +82,7 @@ nav {
     }
 }
 
+/* This is the Skills Container */
 .skills {
     margin-bottom: 2rem;
     padding: 20px;
