@@ -59,7 +59,7 @@ xhr.onreadystatechange = function() {
       badgeHTML += '<li class="badge">';
       badgeHTML += '<p class="badge--name"><a href="' + data.badges[j].url + '">' + data.badges[j].name + '</a></p>';
       badgeHTML += '<p class="badge--course">' + data.badges[j].courses[0].title + '</p>';
-      badgeHTML += '<img src="' + data.badges[j].icon_url + '">';
+      badgeHTML += '<img class="lazyload" data-src="' + data.badges[j].icon_url + '">';
       badgeHTML += '</li>';
     }
 
